@@ -1,0 +1,92 @@
+.profile {
+  text-align: center;
+}
+.profile-img img {
+  border-style: solid;
+  border-color: var(--color-main);
+  border-radius: 50%;
+  width: 80%;
+  max-width: 300px;
+  height: 80%;
+  max-height: 300px;
+}
+
+.profile-img {
+  margin-bottom: 20px;
+}
+
+section.perfil {
+  width: 80%;
+}
+
+.profile-title {
+  font-size: 35px;
+  color: var(--color-main);
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-detail {
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 1.2; /* para el espaciado entre lineas*/
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.download-profile {
+  background-color: var(--button-color);
+  color: var(--color-main);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 0.5em 1em; /* en es relativo al valor del tamaño de fuente en este caso 0.5em es 10 px ya que es la mitad del valor del font*/
+  cursor: pointer;
+}
+
+.download-profile:hover {
+  filter: brightness(120%);
+}
+
+@media (min-width: 950px) {
+  .profile {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .profile-img img {
+    border-style: solid;
+    border-color: var(--color-main);
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+  }
+
+  
+
+  
+
+  .profile-title {
+    font-size: 45px;
+    color: var(--color-main);
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .profile-detail {
+    font-size: 25px;
+    font-weight: 500px;
+    text-align: left;
+    line-height: 1.2; /* para el espaciado entre lineas*/
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  
+}

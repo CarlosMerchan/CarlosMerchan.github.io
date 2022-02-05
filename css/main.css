@@ -1,0 +1,79 @@
+:root {
+  --tema-principal: white;
+  --color-letra: #E43F5AF;
+  --color-main: #162447;
+  --menu-movil: #30353f;
+  --color-titulos: #31498e;
+  --shadow-color: #3758a2;
+  --button-color: #e43f5a;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: var(--tema-principal);
+  color: var(--color-letra);
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-main);
+  font-size: 90px;
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.title h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--color-main);
+  margin: 0;
+  text-align: center;
+  padding-bottom: 1.2em;
+}
+
+
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .title h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--color-main);
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1.2em;
+  }
+
+  .contacto{
+    font-size: 25px;
+    font-weight: 500px;
+    line-height: 1.2; /* para el espaciado entre lineas*/
+    max-width: 980px;
+    margin: 20px auto;
+  }
+
+  .contacto{
+    font-size: 25px;
+    font-weight: 500px;
+    line-height: 1.2; /* para el espaciado entre lineas*/
+    max-width: 950px;
+    margin: 20px auto;    
+  }
+}

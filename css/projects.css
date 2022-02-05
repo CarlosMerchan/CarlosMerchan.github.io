@@ -1,0 +1,49 @@
+.projects{
+    text-align: center;    
+    padding: auto;       
+}
+
+.item-card{     
+    margin: auto;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;    
+    border: black solid 2px ;
+    border-radius: 1em;
+    
+}
+
+.description{
+    text-align: center;    
+    width: 100%;
+    height: 60%;    
+    
+}
+
+.description p{
+    font-size: 15px;
+    padding-top:1em ;
+}
+
+
+
+.options{   
+    text-align: center;  
+    padding-top: 10px; 
+    border-top: black solid 1px;
+    height: 55.2px;
+    background-color: var(--shadow-color);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.button-option {
+    background-color: var(--button-color);
+    color: var(--color-main);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 0.5em 1em; /* en es relativo al valor del tamaño de fuente en este caso 0.5em es 10 px ya que es la mitad del valor del font*/
+    cursor: pointer;
+  }

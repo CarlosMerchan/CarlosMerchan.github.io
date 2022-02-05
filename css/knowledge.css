@@ -1,0 +1,56 @@
+.knowledge{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+           
+}
+
+
+.elemento1 img{
+    padding: 15px 0;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+.elemento2 img{
+    padding: 15px 0;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+
+
+
+@media (min-width: 950px){
+
+    .knowledge{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        max-width: 950px;       
+        margin: 20px auto;
+        text-align: center;
+               
+    }
+    
+    .elemento1 img{
+        padding: 0 30px;
+        max-width: 250px;
+        max-height: 250px;
+    }
+    
+    .elemento2 img{
+        padding: 40px 30px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .elemento1:hover, .elemento2:hover{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+}
